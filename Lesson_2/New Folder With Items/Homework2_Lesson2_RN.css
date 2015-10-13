@@ -1,0 +1,48 @@
+h1 {
+	color: black;
+	font-style: Georgia;
+	text-align: center;
+}
+
+.paragraphs {
+	line-height: 19px;
+}
+
+.youlike {
+	text-transform: uppercase;
+	height: 100px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#header2 {
+	color: purple;
+	font-style: Arial;
+	text-align: center;
+	width: 70px;
+}
+
+.Class1 {
+	background-color: yellow;
+	font-style: Georgia;
+	text-align: left;
+}
+
+.Class2 {
+	color: red;
+	background-color: blue;
+}
+
+.Class3 {
+	color: yellow;
+}
+
+
+
+

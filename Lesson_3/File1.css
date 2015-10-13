@@ -1,0 +1,38 @@
+#test {
+	background-color: red;
+	display: inline;
+	float: left;
+}
+
+#test2 {
+	color: blue;
+	display: inline;
+}
+
+#test3 {
+	color: green;
+	display: block;
+	background-color: yellow;
+	float: left;
+}
+
+#test4 {
+	background-color: blue;
+	display: inline;
+	float: left;
+	margin-left: 20px;
+}
+
+
+#test5 {
+	background-color: blue;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#image {
+	float: left;
+	display: block;
+	margin-right: 10px	;
+}
