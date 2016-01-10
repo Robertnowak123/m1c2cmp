@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @company.name %>
+</p>
+
+<p>
+  <strong>Geography:</strong>
+  <%= @company.geography %>
+</p>
+
+<p>
+  <strong>Hyperlocal:</strong>
+  <%= @company.hyperlocal %>
+</p>
+
+<p>
+  <strong>Commission:</strong>
+  <%= @company.commission %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @company.category %>
+</p>
+
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back', companies_path %>
