@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+# Image image upload
+gem 'carrierwave', '~> 0.9'

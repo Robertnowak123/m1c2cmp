@@ -6,7 +6,7 @@ class CreateCompanies < ActiveRecord::Migration
       t.boolean :hyperlocal
       t.decimal :commission
       t.text :category
-
+      
       t.timestamps null: false
     end
   end

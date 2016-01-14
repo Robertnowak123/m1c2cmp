@@ -25,5 +25,15 @@
   <%= @company.category %>
 </p>
 
+<p>
+  <strong>Delivery:</strong>
+  <%= @company.delivery.to_s %>
+</p>
+
+<p>
+  <strong>Logo:</strong>
+  <%= @company.logo.to_s %>
+</p>
+
 <%= link_to 'Edit', edit_company_path(@company) %> |
 <%= link_to 'Back', companies_path %>

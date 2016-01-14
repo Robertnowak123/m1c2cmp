@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'imageupload/index'
+
+  get 'imageupload/new'
+
+  get 'imageupload/create'
+
+  get 'imageupload/destroy'
+
   resources :likes
   resources :users
   resources :companies
@@ -59,3 +67,4 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 end
+
