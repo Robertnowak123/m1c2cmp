@@ -3,9 +3,9 @@
 
 <h1>Listing Companies</h1>
 
-<table>
+<table style="width:50%">
   <thead>
-    <tr>
+    <tr class="database_table_title">
       <th>Logo</th>
       <th>Name</th> 
       <th>Geography</th>
@@ -17,7 +17,7 @@
     </tr>
   </thead>
 
-  <tbody>
+  <tbody class="database_table_body">
     <% @companies.each do |company| %>
       <tr>
         <td><%= image_tag(company.logo_url, width:90, height:70) %></td>
