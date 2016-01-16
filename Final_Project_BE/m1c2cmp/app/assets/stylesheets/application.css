@@ -112,25 +112,40 @@ li a:hover {
 
 .flex-table {
   display: flex;
+/*  width: 400px; */
 }
 
-/*#database_body {
-  padding-left: 10px;
+.database_global {
+  width: 400px;
+  text-align: left;
+}
 
-}*/
 
-/*#database_table_image {
-  z-index: 100  ;
-}*/
+.database_title {
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  width: 50px;
+}
 
-.database_table_title {
+.database_input {
+  width: 250px;
+  margin-left: 100px;
+  display: inline-block;
+/*  text-align: right;*/
+/*  position: absolute;
   width: 50%;
-
+  right: 0px;*/
 }
 
-/*.database_table_body {
-  width: 20%;
-}*/
+.modify {
+  display: inline-block;
+  margin-top: 10px;
+}
 
-
+#database_body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
 
