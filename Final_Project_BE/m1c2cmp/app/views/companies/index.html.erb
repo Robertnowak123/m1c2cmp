@@ -4,20 +4,10 @@
 <h1>Listing Companies</h1>
 
 
-<!-- start new -->
+<!-- start database html -->
 
 <div class="flex-table">
-<!--     <div class="database_table_title">
-        <div>Logo</div>
-        <div>Name</div>
-        <div>Geography</div>
-        <div>Hyperlocal</div>
-        <div>Commission</div>
-        <div>Category</div>
-        <div>Delivery</div>
-    </div> -->
-
-  
+ 
   <div class="database_table_body">
     <% @companies.each do |company| %>
       <div id="database_body">
@@ -71,20 +61,23 @@
             <%= company.delivery %>
           </div>
         </div>
-        <div class="modify">
-          <%= link_to 'Show', company %>
+        <div class="modify_container">
+          <div class="modify">
+            <%= link_to 'Show', company %>
+          </div>
+          <div class="modify">
+            <%= link_to 'Edit', edit_company_path(company) %></div>
+          <div class="modify">
+            <%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %>
+          </div> 
         </div>
-        <div class="modify">
-          <%= link_to 'Edit', edit_company_path(company) %></div>
-        <div class="modify">
-          <%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %>
-        </div> 
       </div>
     <% end %>
   </div>
+
 </div>
 
-<!-- end experiment -->
+<!-- end database layout -->
 
 <br>
 
