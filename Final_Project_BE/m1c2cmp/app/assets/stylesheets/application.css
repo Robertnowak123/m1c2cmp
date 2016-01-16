@@ -100,18 +100,37 @@ li a:hover {
   background: black;
   border-radius: 3px;
   box-shadow: 0 10px 0 0 black,
-              0 20px 0 0 black;
+               0 20px 0 0 black;
 }
 
 .database {
-  display: inline-block;
+/*  display: inline-block;*/
   float: left;
   margin-top: 50px;
-  width: 500px;
-
+/*  width: 400px;*/
 }
+
+.flex-table {
+  display: flex;
+}
+
+/*#database_body {
+  padding-left: 10px;
+
+}*/
+
+/*#database_table_image {
+  z-index: 100  ;
+}*/
 
 .database_table_title {
-/*display: none;*/
+  width: 50%;
 
 }
+
+/*.database_table_body {
+  width: 20%;
+}*/
+
+
+
