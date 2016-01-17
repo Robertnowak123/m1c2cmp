@@ -13,16 +13,13 @@
       <div id="database_body">
         <div class="database_table_image"><%= image_tag(company.logo_url, width:90, height:70) %>
         </div>
+           <%= div_for company, :class => "rowBox" do %>
         <div class="database_global"> 
           <div class="database_title">
-            <p>
               Name:
-            </p>
           </div>  
           <div class="database_input">
-            <p>
               <%= company.name %>
-            </p>
           </div>
         </div>
         <div class="database_global"> 
@@ -76,6 +73,7 @@
           </div> 
         </div>
       </div>
+      <% end %>
     <% end %>
   </div>
 

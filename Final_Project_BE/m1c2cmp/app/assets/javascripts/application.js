@@ -30,11 +30,16 @@ $( document ).ready(function() {
 	// 	console.log('click');
 	// });	
 
-
 	$('.database_table_image').click(function(){
-		$('.database_global').toggleClass('visible');
+		$(this).next('.rowBox').toggleClass('visible');
 		console.log('click');
 	});	
+
+
+	// $('.database_table_image').click(function(){
+	// 	$('.database_global').toggleClass('visible');
+	// 	console.log('click');
+	// });	
 
 // Toggle for logos - end
 
