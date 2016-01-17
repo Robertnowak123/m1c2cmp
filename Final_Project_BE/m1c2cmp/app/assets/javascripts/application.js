@@ -31,8 +31,6 @@ $( document ).ready(function() {
 	});
 
 
-
-
 // Toggle for logos - end
 
 
