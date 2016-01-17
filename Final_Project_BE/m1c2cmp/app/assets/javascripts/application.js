@@ -35,6 +35,17 @@ $( document ).ready(function() {
 		console.log('click');
 	});	
 
+    $(".database_table_image").mouseover(function(){
+        $(this).css(
+        	"border-style", "solid");
+    });
+    $(".database_table_image").mouseout(function(){
+        $(this).css(
+        	"border-style", "none");
+    });
+
+
+
 
 	// $('.database_table_image').click(function(){
 	// 	$('.database_global').toggleClass('visible');
