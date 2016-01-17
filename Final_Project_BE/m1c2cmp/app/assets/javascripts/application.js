@@ -20,14 +20,17 @@ $( document ).ready(function() {
 	$('.hamburgermenu').on('click', function() {
     	$(this).next().toggleClass("active");
     	console.log('click');
-    	
 
 	});
+
+// Toggle for logos - start
 
 	$('#database_table_image').click(function(){
 		$('.database_global').toggleClass("visible");
 		console.log('click');
 	});
+
+
 
 
 // Toggle for logos - end
