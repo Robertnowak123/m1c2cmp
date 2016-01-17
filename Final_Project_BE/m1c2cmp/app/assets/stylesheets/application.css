@@ -65,7 +65,9 @@ ul {
 }
 
 h1 {
-  margin-left: 50px ;
+  width: 100%;
+  line-height: 120%;
+  text-align: center;   
 }
 
 li a {
@@ -168,12 +170,24 @@ li a:hover {
   border-color: #A8A8A8;
   margin-bottom: 10px;
   background-color: #E0E0E0 ; 
+  float: left;
+  z-index: 1000;
+/*  display: fixed;*/
 } 
+
+/*.large_rowBox {
+  height: 300px;
+  width: 300px;
+  float: left;
+  display: inline-block;
+  padding-left: 5px;
+  margin-left: 0px;
+}*/
 
 .visible {
   display: inline-block;
 }
 
 .database_table_image {
-  margin-left: 100px;
+  margin-left: 125px;
 }

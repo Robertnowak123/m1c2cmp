@@ -31,7 +31,7 @@ $( document ).ready(function() {
 	// });	
 
 	$('.database_table_image').click(function(){
-		$(this).next('.rowBox').toggleClass('visible');
+		$(this).next('.rowBox').fadeToggle('visible');
 		console.log('click');
 	});	
 

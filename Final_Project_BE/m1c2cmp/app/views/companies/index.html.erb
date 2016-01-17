@@ -1,7 +1,7 @@
 
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Companies</h1>
+<h1>Mobile-first C2C Marketplaces</h1>
 
 
 <!-- start database html -->
@@ -10,6 +10,7 @@
  
   <div class="database_table_body">
     <% @companies.each do |company| %>
+     <%= div_for company, :class => "large_rowBox" do %>
       <div id="database_body">
         <div class="database_table_image"><%= image_tag(company.logo_url, width:90, height:70) %>
         </div>
@@ -73,6 +74,7 @@
           </div> 
         </div>
       </div>
+      <% end %>
       <% end %>
     <% end %>
   </div>
