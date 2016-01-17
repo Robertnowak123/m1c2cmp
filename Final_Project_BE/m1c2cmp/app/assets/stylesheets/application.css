@@ -115,13 +115,6 @@ li a:hover {
 /*  width: 400px; */
 }
 
-.database_global {
-  width: 400px;
-  text-align: left;
-  display: none;
-}
-
-
 .database_title {
   font-size: 12px;
   font-weight: bold;
@@ -152,6 +145,12 @@ li a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 30px;
+}
+
+.database_global {
+  width: 400px;
+  text-align: left;
+  display: none;
 }
 
 .visible {

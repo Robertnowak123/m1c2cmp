@@ -11,14 +11,18 @@
   <div class="database_table_body">
     <% @companies.each do |company| %>
       <div id="database_body">
-        <div id="database_table_image"><%= image_tag(company.logo_url, width:90, height:70) %>
+        <div class="database_table_image"><%= image_tag(company.logo_url, width:90, height:70) %>
         </div>
         <div class="database_global"> 
           <div class="database_title">
-            Name:
+            <p>
+              Name:
+            </p>
           </div>  
           <div class="database_input">
-            <%= company.name %>
+            <p>
+              <%= company.name %>
+            </p>
           </div>
         </div>
         <div class="database_global"> 

@@ -25,11 +25,16 @@ $( document ).ready(function() {
 
 // Toggle for logos - start
 
-	$('#database_table_image').click(function(){
-		$('.database_global').toggleClass("visible");
-		console.log('click');
-	});
+	// $('.database_table_image').click(function(){
+	// 	$('.database_global').toggleClass("visible");
+	// 	console.log('click');
+	// });	
 
+
+	$('.database_table_image').click(function(){
+		$('.database_global').toggleClass('visible');
+		console.log('click');
+	});	
 
 // Toggle for logos - end
 
