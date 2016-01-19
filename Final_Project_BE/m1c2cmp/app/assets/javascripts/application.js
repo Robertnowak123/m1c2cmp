@@ -37,11 +37,13 @@ $( document ).ready(function() {
 
     $(".database_table_image").mouseover(function(){
         $(this).css(
-        	"border-style", "solid");
+        	"border-color", "green");
     });
     $(".database_table_image").mouseout(function(){
-        $(this).css(
-        	"border-style", "none");
+        $(this).css({
+        	"border-color": "white",	
+        	"z-index": "1000",	
+        	});
     });
 
 

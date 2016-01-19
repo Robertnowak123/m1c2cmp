@@ -190,4 +190,8 @@ li a:hover {
 
 .database_table_image {
   margin-left: 125px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+
 }
